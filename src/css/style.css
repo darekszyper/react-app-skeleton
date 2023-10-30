@@ -1,0 +1,48 @@
+.form-group.username-icon::before {
+  content: "\e7fd";
+  font-family: "Material Symbols Outlined";
+  position: absolute;
+  left: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+}
+
+.form-group.password-icon::before {
+  content: "\e897";
+  font-family: "Material Symbols Outlined";
+  position: absolute;
+  left: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+}
+
+.form-control.padding-for-icon {
+  padding: 0 2rem;
+}
+
+.password-visibility-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  position: absolute;
+  right: 0;              
+  top: 50%;                    
+  transform: translateY(-50%); 
+  outline: none;             
+  font-size: 1.2rem;           
+  color: #000000;            
+}
+
+.password-visibility-button:hover {
+  color: #666;
+}
+
+.recaptcha-container {
+  display: flex;
+  justify-content: center; /* Horizontally center the child elements */
+  align-items: center;     /* Vertically center the child elements */
+}
